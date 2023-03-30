@@ -1,0 +1,17 @@
+.navbar{
+    height: 100px;
+}
+.navbar-brand{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.nav-link{
+    font-family: Carrois Gothic SC;
+}
+.nav-link .active{
+    border-top: 1px solid;
+    border-top-color: brown;
+}
