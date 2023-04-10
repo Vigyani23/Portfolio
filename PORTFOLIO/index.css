@@ -4,14 +4,219 @@
 .navbar-brand{
     font-family: Carrois Gothic SC;
     letter-spacing: 4px;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 40px;
     padding-right: 50px;
 }
 .nav-link{
     font-family: Carrois Gothic SC;
 }
-.nav-link .active{
-    border-top: 1px solid;
-    border-top-color: brown;
+.nav-item .active{
+    border-top: 4px solid;
+    border-top-color: #8f7b6a;
 }
+.nav-item{
+    padding: 10px;
+}
+.nav-item a:hover{
+    border-top: 4px solid;
+    border-top-color: #8f7b6a;
+}
+#left{
+    background-color: #d5d5d5;
+    height: 500px;
+}
+#right{
+    background-color: #f3ede9;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-text{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+.designation{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.my-expertise{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#expertise{
+    background-color:#f3ede9;
+    height: auto;
+}
+#tools-list{
+    padding: 20px;
+}
+#tools{
+    margin-top: 5%;
+}
+#exp-tools{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 15%;
+}
+#ibm-tools{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    font-size: large;
+    color: black;
+    text-align: center;
+} 
+.progress{
+    background-color: white;
+}
+.progress-bar{
+    background-color: #8f7b6a;
+   
+}
+.tools-list{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    margin-top: 4%;
+}
+#tools-div{
+    margin-bottom: 4%;
+}
+#languages{
+    background-color: #858585;
+    margin-top: 5%;
+    height: 450px;
+    margin-bottom: 5%;
+}
+#exp-languages{
+    background-color: #f3ede9;
+    height: 380px;
+    width: 450px;
+    margin-left: 3%;
+    margin-top: 3%; 
+}
+#languages-heading{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 40%;
+} 
+#languages-list{
+    margin-left: 10%;
+    background-color: #f7f7f7;
+    height: 380px;
+    margin-top: 3%;
+    width: 450px;
+}
+#lang-list{
+    font-family: Carrois Gothic SC;
+    letter-spacing: 4px;
+    margin-top: 12%;
+}
+#project-button{
+    background-color: transparent;
+    padding: 8px;
+    margin-left: 48%;
+    border: #858585 1px solid;
+    width: 100px;
+}
+#project-button a{
+    text-decoration: none;
+    color: #000;
+}
+#footer{
+    margin-top: 5%;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 90%;
+    }
+    .my-expertise{
+        margin-top: 55%;
+    }
+    #exp-tools{
+        margin-top: 5%;
+    }
+    .progress{
+        margin-bottom: 5%;
+    }
+    #languages{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    #exp-languages{
+        width: 90%;
+        height: 200px;
+        margin-left: 5%;
+    }
+    #languages-heading{
+        margin-top: 20%;
+    }
+    #languages-list{
+        margin-left: 5%;
+        width: 90%;
+    }
+    #project-button{
+        margin-left: 45%;
+    }
+   
+    }
+  /* @media screen and (min-width: 375px) {
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 30%;
+    }
+    .my-expertise{
+        margin-top: 30%;
+    }
+    #exp-tools{
+        margin-top: 5%;
+    }
+    .progress{
+        margin-bottom: 5%;
+    }
+    #languages{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    #exp-languages{
+        width: 90%;
+        height: 200px;
+        margin-left: 5%;
+    }
+    #languages-heading{
+        margin-top: 13%;
+    }
+    #languages-list{
+        margin-left: 16%;
+    }
+    #project-button{
+        margin-left: 45%;
+    }
+  } */
