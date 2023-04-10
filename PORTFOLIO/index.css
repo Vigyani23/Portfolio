@@ -140,7 +140,7 @@
 #footer{
     margin-top: 5%;
 }
-@media only screen and (min-width: 200px) and (max-width: 767px)  {
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px)  {
     #left{
         width: 100%;
     }
@@ -148,10 +148,13 @@
         width: 100%;
         position: absolute;
         left: 0%;
-        top: 90%;
+        top: 30%;
+    }
+    #expertise{
+        margin-top: 0%;
     }
     .my-expertise{
-        margin-top: 55%;
+        margin-top: 20%;
     }
     #exp-tools{
         margin-top: 5%;
@@ -170,7 +173,7 @@
         margin-left: 5%;
     }
     #languages-heading{
-        margin-top: 20%;
+        margin-top: 15%;
     }
     #languages-list{
         margin-left: 5%;
