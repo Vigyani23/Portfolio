@@ -146,15 +146,15 @@
     }
     #right{
         width: 100%;
-        position: absolute;
+        position: fixed;
         left: 0%;
-        top: 30%;
+        top: 6%;
     }
     #expertise{
         margin-top: 0%;
     }
     .my-expertise{
-        margin-top: 20%;
+        margin-top: 8%;
     }
     #exp-tools{
         margin-top: 5%;
