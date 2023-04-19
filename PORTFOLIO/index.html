@@ -20,7 +20,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item" >
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -103,13 +103,97 @@
           </section>
           <section>
             <div>
-              <button id="project-button"><a href="projects.html">Projects</a></button>
+              <button id="project-button">Projects</button>
+              <!-- Projects Pop-up -->
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="slider-container">
+                    <div class="slider">
+                      <div class="slides">
+                        <div id="slides__1" class="slide">
+                          <span class="slide__text">
+                            <p id="project-name"><u><b>SPARK MINDA</b></u></p>
+                            <p id="project-description"> 
+
+                              <b>Experience: 1 year</b><br>
+                              <b>Role: IBM ELM Administrator</b><br><br>
+                              <b>Tools involved in this project: </b><br>
+                              &#9679; &nbsp;IBM Engineering Requirements Management DOORS Next<br>
+                              &#9679; &nbsp;IBM Engineering Workflow Management<br>
+                              &#9679; &nbsp;IBM Engineering Workflow Management Eclipse Client<br>
+                              &#9679; &nbsp;IBM Engineering Test Management<br>
+                              &#9679; &nbsp;Engineering Lifecycle Optimization – Publishing<br>
+                              &#9679; &nbsp;Jazz Reporting Service<br>
+                              <b>Roles and Responsibilities</b><br>
+                              &#9679; &nbsp;Administration/support activities of tools like DOORS Classic, EWM, ERM-DN, ETM<br>
+                              &#9679; &nbsp;Import Requirement from MS word & Excel into ERM-DN.<br>
+                              &#9679; &nbsp;Working with Source Control in EWM.<br>
+                              &#9679; &nbsp;Customization of work item types in RTC with multiple workflows & attributes<br>
+                              &#9679; &nbsp;Import Test Cases from excel into ETM and categorized.<br>
+                              &#9679; &nbsp;Import work items in EWM.<br>
+                              &#9679; &nbsp;Trained users to get familiar with IBM ELM tools<br>
+                              
+
+
+                            </p>
+                          </span>
+                          <a class="slide__prev" href="#slides__4" title="Next"></a>
+                          <a class="slide__next" href="#slides__2" title="Next"></a>
+                        </div>
+                        <div id="slides__2" class="slide">
+                          <span class="slide__text">2</span>
+                          <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                          <a class="slide__next" href="#slides__3" title="Next"></a>
+                        </div>
+                        <div id="slides__3" class="slide">
+                          <span class="slide__text">3</span>
+                          <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                          <a class="slide__next" href="#slides__4" title="Next"></a>
+                        </div>
+                        <div id="slides__4" class="slide">
+                          <span class="slide__text">4</span>
+                          <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                          <a class="slide__next" href="#slides__1" title="Prev"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
             </div>
             
           </section>
-          <section id="footer">
-
-          </section>
+          <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("project-button");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
            
     </body>
     <script>

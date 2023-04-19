@@ -8,7 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <link href="index.css" rel="stylesheet">
+        <link href="/PORTFOLIO/index.css" rel="stylesheet">
     </head>
     <body>
       <section>
@@ -32,17 +32,40 @@
         </section>
         <section>
           <h1 class="projects">PROJECTS</h1>
-         <div class="container" id="projects-list">
-          <div class="row">
-            <div class="col-lg-6" id="project-left">
-              SPARK MINDA
-            </div>
-            <div class="col-lg-6" id="project-right">
-
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slides">
+                <div id="slides__1" class="slide">
+                  <span class="slide__text">
+                    SPARK MINDA
+                  </span>
+                  <a class="slide__prev" href="#slides__4" title="Next"></a>
+                  <a class="slide__next" href="#slides__2" title="Next"></a>
+                </div>
+                <div id="slides__2" class="slide">
+                  <span class="slide__text">2</span>
+                  <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                  <a class="slide__next" href="#slides__3" title="Next"></a>
+                </div>
+                <div id="slides__3" class="slide">
+                  <span class="slide__text">3</span>
+                  <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                  <a class="slide__next" href="#slides__4" title="Next"></a>
+                </div>
+                <div id="slides__4" class="slide">
+                  <span class="slide__text">4</span>
+                  <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                  <a class="slide__next" href="#slides__1" title="Prev"></a>
+                </div>
+              </div>
             </div>
           </div>
-         </div>
-        </section>
           
+          
+          <a href="https://alvarotrigo.com/blog/create-a-slider-with-pure-CSS/" target="_blank" class="read-article">
+            Read the article 👉
+          </a>
+        </section>
+        
     </body>
 </html>
